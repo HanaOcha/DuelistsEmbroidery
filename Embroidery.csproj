@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Harmony_Example</RootNamespace>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\MelonLoader\net6\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="Duelists.Battle">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\Duelists.Battle.dll</HintPath>
+    </Reference>
+    <Reference Include="Duelists.Core">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\Duelists.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Duelists.Main">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\Duelists.Main.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayFab">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\PlayFab.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Utils">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duelists of Eden\Duelists_Data\Managed\Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
