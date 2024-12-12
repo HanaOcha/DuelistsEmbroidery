@@ -1,4 +1,35 @@
-//ID;Text
+AcidRain;Fit for royalty
+Apprehend;yoink
+ColdMedicine;It makes sure you have a cold
+Collapse;I would have preferred it was economic
+Crackroots;Shouldn’t it be crackbreakroots?
+CrystalRifle;Those who live in crystal houses should-
+DarkGrasp;To me, Dark Grasp is just regular Grasp.
+DoubleTeam;Hit ‘em with the good ol’ 1-2!
+Escalation;baps u baps u baps u baps u b
+GolfBomb;Fore!
+HyperBeam;I’M A’ FIRIN’ MAH LAZER
+Innervate;Why are you hitting yourself?
+Lasso;Town ain’t big enough for the two of us, pardner
+LastLetter;Abcd…
+LastLetterX;Now I know my XYZs
 MagicClaw;Min req - lvl 14 Magician
-SpearWave;"wawawa"
-Slowball;"Look out!"
+ManaCatch;Bottoms up!
+Slowball;Look out!
+SpearWave;wawawa
+StepReverse;*teleports behind u*
+Stinger;It does.
+Sweeper;Clean house.
+Tetra;round and round
+Vivisection;I meant to do that . . .
+WindBurst;Xetrov
+
+MechWrench;bonk
+SummonDarkMatter;So close, no matter how far
+Charm;I’m sure
+Hew;Time to bid you adieu
+TaxReturn;A little lie never hurt anyone
+SpearDrive;I’ve got my license
+SpikeTrap;No Admiral can save you
+SetPiece;setpiece2
+Execute;Aposentar
