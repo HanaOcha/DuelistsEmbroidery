@@ -1,4 +1,4 @@
 //ID;Text
-
-SpearWave;"Wawawa"
-Slowball;"Lookout!"
+MagicClaw;Min req - lvl 14 Magician
+SpearWave;"wawawa"
+Slowball;"Look out!"
