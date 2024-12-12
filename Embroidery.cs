@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
@@ -11,7 +11,7 @@ using TMPro;
 using HarmonyLib;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(Embroidery_DOEMod.Embroidery), "Embroidery", "1.0.0", "HanaOcha")]
+[assembly: MelonInfo(typeof(Embroidery_DOEMod.Embroidery), "Embroidery", "1.2.0", "HanaOcha")]
 [assembly: MelonGame()]
 
 namespace Embroidery_DOEMod
@@ -42,10 +42,10 @@ namespace Embroidery_DOEMod
                 setup.fontStyle = FontStyles.Italic;
                 setup.enableWordWrapping = true;
                 setup.color = Color.white * 0.7f;
-                setup.fontSize = __instance.cardInner.description.fontSize - 0.6f;
-                setup.rectTransform.sizeDelta = new Vector2(40f, setup.rectTransform.sizeDelta.y);
+                setup.fontSize = __instance.cardInner.description.fontSize - 0.7f;
+                setup.rectTransform.sizeDelta = new Vector2(36f, setup.rectTransform.sizeDelta.y);
 
-                embroidery.localPosition += new Vector3(-7, -16.5f, 0);
+                embroidery.localPosition += new Vector3(-9f, -16.5f, 0);
             }
 
             bool frameData = false;
@@ -56,32 +56,48 @@ namespace Embroidery_DOEMod
 
             TextMeshProUGUI flavor = embroidery.GetComponent<TextMeshProUGUI>();
             flavor.text = string.Empty;
-            if (!frameData && EmbroideryData.flavorTexts.ContainsKey(itemData.id))
+            if (!frameData && EmbroideryData.flavors.ContainsKey(itemData.id))
             {
-                flavor.text = EmbroideryData.flavorTexts[itemData.id];
+                flavor.text = EmbroideryData.flavors[itemData.id];
             }
         }
     }
     internal class EmbroideryData
     {
-        public static readonly string link = "https://raw.githubusercontent.com/HanaOcha/DuelistsEmbroidery/main/";
-        public static readonly string filePath = "Flavors.txt";
-        internal static Dictionary<string, string> flavorTexts = new Dictionary<string, string>();
+        public static readonly string link = "https://raw.githubusercontent.com/HanaOcha/DuelistsEmbroidery/main/Flavors/";
+        internal static Dictionary<string, string> flavors = new Dictionary<string, string>();
         internal static IEnumerator GetFlavorTexts()
         {
-            flavorTexts.Clear();
+            flavors.Clear();
 
-            Debug.Log("EMBROIDERY MOD;");
+            yield return GetFromFile("Spells.txt");
+            yield return GetFromFile("Weapons.txt");
+            yield return GetFromFile("Modded.txt");
+
+            yield break;
+        }
+        internal static IEnumerator GetFromFile(string file)
+        {
+            Debug.Log("EMBROIDERY ; Requesting \"" + file + "\" from \"" + link + "\"");
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link + file);
+            request.UserAgent = "Duelists Embroidery Request - " + file;
+
+            HttpWebResponse? response = null;
             try
             {
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link + filePath);
-                request.UserAgent = "Duelists Embroidery Request";
-                Debug.Log("Requesting \"" + filePath + "\" from \"" + link + "\"");
-                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                response = (HttpWebResponse)request.GetResponse();
+            }
+            catch (WebException ex)
+            {
+                Debug.LogException(ex);
+            }
 
+            if (response != null)
+            {
                 Stream stream = response.GetResponseStream();
                 StreamReader reader = new StreamReader(stream, Encoding.UTF8);
-                Debug.Log("Reading " + filePath);
+                Debug.Log("Reading " + file);
 
                 string line;
                 while ((line = reader.ReadLine()) != null)
@@ -89,17 +105,12 @@ namespace Embroidery_DOEMod
                     if (!line.StartsWith("//"))
                     {
                         string[] data = line.Split(";");
-                        if (data.Length >= 2 && AssetLibrary.spells.ContainsKey(data[0]))
+                        if (data.Length >= 2)
                         {
-                            flavorTexts.Add(data[0], data[1]);
+                            flavors.Add(data[0], data[1]);
                         }
                     }
                 }
-                Debug.Log("Added flavor text for " + flavorTexts.Count + " spells");
-            }
-            catch(Exception e)
-            {
-                Debug.LogException(e);
             }
 
             yield break;
