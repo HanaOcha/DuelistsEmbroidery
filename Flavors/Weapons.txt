@@ -1,1 +1,9 @@
-
+MechWrench;bonk
+SummonDarkMatter;So close, no matter how far
+Charm;I’m sure
+Hew;Time to bid you adieu
+TaxReturn;A little lie never hurt anyone
+SpearDrive;I’ve got my license
+SpikeTrap;No Admiral can save you
+Setpiece;setpiece2
+Execute;Aposentar
