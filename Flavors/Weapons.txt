@@ -1,8 +1,15 @@
 MechWrench;bonk
 SummonDarkMatter;So close, no matter how far
+SixShooter;Bullets are expensive!
+PistolWhip;idk, just slap ‘em or somthign
+CenterMass;How can you be so . . . 
+Misericorde;We love company
 Charm;I’m sure
 Hew;Time to bid you adieu
+Sewture;So sew me
 TaxReturn;A little lie never hurt anyone
+Pounce;I got you! You’re MINE!
+DarkWave;Hello, darkness, my old friend
 SpearDrive;I’ve got my license
 SpikeTrap;No Admiral can save you
 Setpiece;setpiece2
