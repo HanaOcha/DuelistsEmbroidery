@@ -1,67 +1,120 @@
 AcidRain;Fit for royalty
-AirRifle;not just hot air
+AirRifle;Not just hot air
 Align;The Brits love it
 SummonAmplifier;Music won’t be the only thing amplified here
 Anubis;Better to get hit by Anubis than an old one
-Apprehend;yoink
+Apprehend;Yoink!
+SummonArmor;In french it's called amour
 AutoSlash;These automatic slashes won’t do
 BackSlash;Wait, I had a typo
 Backstab;Watch your back.
-Blink;and you’ll regret it
+SummonBarricade;*blocks ur path*
+SummonBeamCrystal;No mere Imitation Crystal 
+Blink;And you’ll regret it
+BombToss;Yes rico, kaboom 
 Boomerang;What, you’re not going to catch it?
 BouncingBlade;But you are going to catch this one?
 BowSnipe;If I miss, it means I’m just another dude with a bow
+Breakout;Wisdom. Patience. Empathy. Kindness. Serenity. Clarity.
 BreakShot;Take a break, have a shot
+Brushfire;Harissa… Please…
+Cataclysm;Meow
+ClawTrap;I’ve got a mind like a claw trap
 Collapse;I would have preferred it was economic
+Combust;"High temp exothermic redox chemical reaction" didn’t roll off the tongue as well
 Compactor;cmpctr
 Crackroots;Shouldn’t it be crackbreakroots?
+Crevasse;Bit more durable than your average vase
+Crossfire;Don’t get caught in it
 CrystalRifle;Those who live in crystal houses should-
 DarkGrasp;To me, Dark Grasp is just regular Grasp.
+DiagBeam;Reva 7
 DoubleTeam;Hit ‘em with the good ol’ 1-2!
+Downfall;I pray on it
 Earthquake;cat 9
-Ember;I am not Ash, i am the embers you failed to put out.
+Ember;I am not Ash, I am the embers you failed to put out.
+Eruption;To er is uption
 Escalation;ow ow ow ow ow ow ow ow
 Fadeaway;Kobe!
+FireBreath;It’s even worse the other way
+Firewall;Destroy the central cannon!
+Flurry;Try holding it upside down!
 FreezerBurn;It’s still good...
 Glitter;A light from the shadows shall spring
 GolfBomb;Fore!
 Guillotine;Down with the monarchy
+Gust;It’s like Tailwind, but backwards
+Harrier;Boop,boop,boop,boop,boop,booP
+Harvest;    
+Heatseekers;Aren’t we all just
+HydroPump;100% accurate?!
 HyperBeam;I’M A’ FIRIN’ MAH LAZER
 IcePick;That’s one way to break the ice
 InfinityBeam;Let’s go gambling! Aw, dang it
 Innervate;Why are you hitting yourself?
-Knife;The Brits hate it
+Inverter;I hardly know her!
+IonCannon;Whosawhatsit? Iono!
+Jackhammer;Making the mother of all omelettes here 
+KineticWave;Just smile and wave, boys.
 Kunai;Ninja’s best friend
+Lasso;Town ain’t big enough for the two of us, pardner, YEEHAW
 LastLetter;Abcd…
 LastLetterX;Now I know my XYZs
 Lockdown;cough cough
 MagicClaw;Min req - lvl 14 Magician
-MagnaFlare;hope you like pinball
+MagnaFlare;Hope you like pinball
 ManaCatch;Bottoms up!
-Meteors;your tears
-Mine;but you can have it
-Missiletow;love hurts
+Meteors;Your tears
+Mine;But you can have it
+Minigun;This time, I’ve got 4 shots.
+Missiletow;Love hurts
 Monsoon;Or later
 Needler;Like acupuncture, but it hurts
 Paragon;Will be back before you know it
 PowerDrain;Ooh, this is gonna hurt..!
+Pull;Get over here
 PunchCannon;ONE PUUUUUNNCH
-Rage;weaponized anger management issues
+Quadclaws;Lemme get one
+Rage;Weaponized anger management issues
 Ragnarok;See u at VA=11 Hall-A
+Reaper;Marked for death
 Rocket;Charged! Go!
+Rush;Streets 1:12
 Sacrifire;eye for a limb
+Salamander;サラマンダー ああ ああ ああ あい
+ScatterSpear;Like eating popcorn
+Seize;It’s fun, fair, AND balanced!
 Shear;Can’t beat rock, but can beat paper
 Shotgun;I’m an angel with a shotgun
 Slowball;Look out!
 SnowCone;You wouldn’t want a taste of this
+Snowfall;Grab a shovel
+SpearCatch;Ouch!
 SpearWave;wawawa
 Starfield;Bringing the stars down to the earth
+StepBlaze;No, it only deals 5 damage.
+StepLance;A swing and a miss
 StepReverse;*teleports behind u*
+StepSlash;One Slash From Eden
+Stinger;It does.
+Strangle;"Why you little!"
 Study;Time for a cram session
+SwallowSpear;we outta spears
+Tailwind;It’s like Gust, but backwards
 Tetra;You spin me right round
+Thunder;judgement knights of thunder!!!
+Toxicross;Tell Ross to chill
 TriThunder;3 for the price of 2!
 Tsunami;Climate change hurts
 Twinferno;Just the two of us
 Ultrangle;Hey, it says "gullible" on the ceiling
+Unleash;Off the chain
+VinePull;I sure hope it does
 Vivisection;I meant to do that...
+Volley;ballin’
+Vortex;Tsrub Dniw
+WarpRays;I’m over it. Now I’m under it.
+Whiplash;Were you rushing or were you dragging?
+Whirl;"Take it to #Balance-Discussions"
 WindBurst;Xetrov
+Zenith;Use after dashing!
