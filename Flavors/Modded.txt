@@ -1,2 +1,4 @@
 Handload;"I love to reload during a battle…"
 Lynchpin;Bullets are expensive!
+MindLash;From the Mind Goblin's spellbook…
+BulletAngel;I don’t care if Heaven won’t take me back!
